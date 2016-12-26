@@ -28,9 +28,9 @@
 
 			//setting
 			public static int mehealthpercent = 80;
-			public static bool mecombat = false;
-			public static bool isfoxpresent = false;
-			public static bool mobispresent = false;
+			public static bool mecombat = true;
+			public static bool isfoxpresent = true;
+			public static bool mobispresent = true;
 			internal async Task<bool> FoxFlower()
 			{
 				WoWAreaTrigger scrap = GetFlowerScrap();
